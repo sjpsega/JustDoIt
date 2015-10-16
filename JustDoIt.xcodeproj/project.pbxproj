@@ -488,7 +488,7 @@
 				INFOPLIST_FILE = JustDoIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sjpsega.JustDoIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjp.Gan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "JustDoIt/JustDoIt-Bridging-Header.h";
 			};
@@ -501,7 +501,7 @@
 				INFOPLIST_FILE = JustDoIt/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sjpsega.JustDoIt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sjp.Gan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "JustDoIt/JustDoIt-Bridging-Header.h";
 			};

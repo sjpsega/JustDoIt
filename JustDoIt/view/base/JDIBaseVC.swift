@@ -10,9 +10,17 @@ import UIKit
 
 class JDIBaseVC: UIViewController {
 
+    override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
+        super.init(nibName:nibNameOrNil, bundle:nibBundleOrNil);
+        self.tabBarItem = UITabBarItem(title: "", image: UIImage(named: "check"), tag: 0);
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarItem = UITabBarItem(title: "", image: UIImage(named: <#T##String#>)), tag: 0);
         // Do any additional setup after loading the view.
     }
 
